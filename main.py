@@ -3,7 +3,7 @@ import json
 from llama_cpp import Llama
 
 print('Loading model')
-llm = Llama(model_path='models/ggml-alpaca-7b-q4.bin')
+llm = Llama(model_path='Alpaca-native-4bit-ggml/ggml-alpaca-7b-q4.bin')
 print('Model loaded')
 output = llm.run(
     'Question: Name 10 words that are as different from each other as possible? Answer:',
